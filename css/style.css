@@ -8,3 +8,14 @@
   color: yellow;
 
 }
+.top{
+  height: 595px;
+  background-image: url("images/akan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-c{
+  height: 595px;
+  width: 100%;
+  background-color: rgba(255, 155, 0, 0.2);
+}
