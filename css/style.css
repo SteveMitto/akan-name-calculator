@@ -1,0 +1,10 @@
+.nav-link{
+  color: white;
+  text-shadow: 5px;
+  font-weight: bold;
+}
+.nav-link:hover{
+  background: white;
+  color: yellow;
+
+}
