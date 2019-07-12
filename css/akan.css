@@ -1,0 +1,28 @@
+.top{
+  height:500;
+  background-image: url("images/akan-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-c{
+  height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-txt{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding:10px 20px;
+}
+.top-txt h2{
+  font-size: 4em;
+  color: black
+  /* opacity: 0.5; */
+}
