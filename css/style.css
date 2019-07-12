@@ -19,3 +19,19 @@
   width: 100%;
   background-color: rgba(255, 155, 0, 0.2);
 }
+.top-nav h2{
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+  font-size: 5em;
+  position: relative;
+}
+.top-nav h2::before{
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+  height: 5px;
+  width: 500px;
+  background-color: white
+}
