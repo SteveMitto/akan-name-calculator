@@ -19,7 +19,7 @@ To create this project i created a business logic file using JS then i designed 
 To develop this project i will use HTML,CSS and JavaScript.
 
 ## Contact Information
-To contact me you can send me an email on mittosteve@gmail.computer
+To contact me you can send me an email on mittosteve@gmail.com
 
 ## License and Copyright information
 MIT License
