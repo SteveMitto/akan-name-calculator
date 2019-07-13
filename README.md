@@ -17,7 +17,7 @@ To see the website try to view it through this link --> https://stevemitto.githu
 
 ## Errors and Bugs
 Everything is working well but some of the days it calculates are not appropriate.
-After giving you the results it gives you an error 404 i dont understand
+After giving you the results it gives you an error 405 i dont understand
 
 ## BDD
 To create this project i created a business logic file using JS then i designed the user logic with HTML and CSS.
