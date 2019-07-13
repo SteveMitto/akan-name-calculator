@@ -10,6 +10,7 @@ var dayFinder = function(day){
   var date=document.forms["akanNames"]["date"].value;
   var month=document.forms["akanNames"]["month"].value;
   var year=document.forms["akanNames"]["year"].value;
+  var gender=document.forms["akanNames"]["gender"].value;
   var yearAct=year.slice(2,4);
   var centCalc=function(year1){
     var cc=year1;
