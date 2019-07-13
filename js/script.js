@@ -1,3 +1,5 @@
+var fname,sname,date,month,year,gender,names,yearAct,centCalc;
+
 var days=["Sunday","Moday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
 var maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
