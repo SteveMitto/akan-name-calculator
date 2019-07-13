@@ -17,11 +17,9 @@ var dayFinder = function(){
   console.log(names)
   this.yearAct=this.year.slice(2,4);
   this.century=this.year.slice(0,2);
-  alert(this.century)
 
   this.dayOfWeek=( ( (this.century/4) -2*this.century-1) + ((5*this.yearAct/4) ) + ((26*(this.month+1)/10)) + this.date ) % 7;
   this.actualDay= this.dayOfWeek.toFixed(0);
-  alert(this.actualDay);
   if (this.gender === "male"){
 
     if(this.actualDay === 1){
