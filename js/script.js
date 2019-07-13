@@ -33,28 +33,57 @@ var dayFinder = function(day){
 
   var actualDay= dayOfWeek.toFixed(0);
   alert(actualDay);
-  if(actualDay === 1){
-    alert(days[0] + maleNames[0]);
-  }
-  else if (actualDay == 2) {
-    alert(days[1] + maleNames[1]);
-  }
-  else if (actualDay == 3) {
-    alert(days[2] + maleNames[2]);
-  }
-  else if (actualDay == 4) {
-    alert(days[3] + maleNames[3]);
-  }
-  else if (actualDay == 5) {
-    alert(days[4] + maleNames[4]);
-  }
-  else if (actualDay == 6) {
-    alert(days[5] + maleNames[5]);
-  }
-  else if (actualDay == 7 ) {
-    alert(days[6] + maleNames[6]);
+  if (gender === "male"){
+
+    if(actualDay === 1){
+      alert(days[0] + maleNames[0]);
+    }
+    else if (actualDay == 2) {
+      alert(days[1] + maleNames[1]);
+    }
+    else if (actualDay == 3) {
+      alert(days[2] + maleNames[2]);
+    }
+    else if (actualDay == 4) {
+      alert(days[3] + maleNames[3]);
+    }
+    else if (actualDay == 5) {
+      alert(days[4] + maleNames[4]);
+    }
+    else if (actualDay == 6) {
+      alert(days[5] + maleNames[5]);
+    }
+    else if (actualDay == 7 ) {
+      alert(days[6] + maleNames[6]);
+    }else{
+      alert("invalid")
+    }
+  }if else(gender === "female"){
+    if(actualDay === 1){
+      alert(days[0] + femaleNames[0]);
+    }
+    else if (actualDay == 2) {
+      alert(days[1] + femaleNames[1]);
+    }
+    else if (actualDay == 3) {
+      alert(days[2] + femaleNames[2]);
+    }
+    else if (actualDay == 4) {
+      alert(days[3] + femaleNames[3]);
+    }
+    else if (actualDay == 5) {
+      alert(days[4] + femaleNames[4]);
+    }
+    else if (actualDay == 6) {
+      alert(days[5] + femaleNames[5]);
+    }
+    else if (actualDay == 7 ) {
+      alert(days[6] + femaleNames[6]);
+    }else{
+      alert("invalid")
+    }
   }else{
-    alert("invalid")
+    alert("who are you")
   }
 
 }
