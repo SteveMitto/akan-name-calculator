@@ -63,6 +63,15 @@
   border: 5px solid rgb(255,255,100);
   border-width: 0px 0px 0px 10px;
 }
+.hist-top h3{
+  font-family: 'IM Fell Double Pica', serif;
+  letter-spacing:3px;
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  width: 250px;
+  
+}
 .row .hist p{
   text-align: justify;
   line-height:35px;
