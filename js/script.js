@@ -48,10 +48,10 @@ var dayFinder = function(day){
     alert(days[5]);
   }
   else if (actualDay == 6) {
-    alert(days[6]);
+    alert(days[6] + maleNames[6]);
   }
-  else if (actualDay == 7) {
-    alert(days[7]);
+  else if (actualDay == 7 ) {
+    alert(days[7] );
   }else{
     alert("invalid")
   }
