@@ -38,3 +38,11 @@
 .intro h3{
   font-family: 'IM Fell Double Pica', serif;
 }
+.intro p{
+  font-style: italic;
+  line-height: 35px;
+  padding-left: 35px;
+  background-color: rgba(255, 255, 0, 0.1);
+  border: 5px solid rgb(255,255,100);
+  border-width: 0px 0px 0px 10px;
+}
