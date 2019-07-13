@@ -11,6 +11,8 @@ var dayFinder = function(day){
   var month=document.forms["akanNames"]["month"].value;
   var year=document.forms["akanNames"]["year"].value;
   var gender=document.forms["akanNames"]["gender"].value;
+  var names=fname.concat(" ",sname)
+  console.log(names)
   var yearAct=year.slice(2,4);
   var centCalc=function(year1){
     var cc=year1;
