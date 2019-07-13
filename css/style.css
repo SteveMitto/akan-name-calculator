@@ -37,7 +37,23 @@
 }
 .intro h3{
   font-family: 'IM Fell Double Pica', serif;
+  letter-spacing:3px;
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  width: 250px;
+  position: relative;
 }
+/* .intro h3::before{
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  height: 100px;
+  width:10px;
+  background-color: rgb(255,255,100);
+  z-index: -1;
+   } */
 .intro p{
   font-style: italic;
   line-height: 35px;
