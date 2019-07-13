@@ -111,3 +111,13 @@
   height: 250px;
 
 }
+#akan-names h3{
+  font-family: 'IM Fell Double Pica', serif;
+  letter-spacing:3px;
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  width: 300px;
+  position: relative;
+
+}
