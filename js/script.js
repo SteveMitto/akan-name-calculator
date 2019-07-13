@@ -36,49 +36,49 @@ var dayFinder = function(day){
   if (gender === "male"){
 
     if(actualDay === 1){
-      alert(days[0] + maleNames[0]);
+      alert("Hello " + names + " you were born on " + days[0] +" and your Akan Name is " + maleNames[0]);+ "."
     }
     else if (actualDay == 2) {
-      alert(days[1] + maleNames[1]);
+      alert("Hello " + names + " you were born on " + days[1] +" and your Akan Name is " + maleNames[1]);+ "."
     }
     else if (actualDay == 3) {
-      alert(days[2] + maleNames[2]);
+      alert("Hello " + names + " you were born on " + days[2] +" and your Akan Name is " + maleNames[2]);+ "."
     }
     else if (actualDay == 4) {
-      alert(days[3] + maleNames[3]);
+      alert("Hello " + names + " you were born on " + days[3] +" and your Akan Name is " + maleNames[3]);+ "."
     }
     else if (actualDay == 5) {
-      alert(days[4] + maleNames[4]);
+      alert("Hello " + names + " you were born on " + days[4] +" and your Akan Name is " + maleNames[4]);+ "."
     }
     else if (actualDay == 6) {
-      alert(days[5] + maleNames[5]);
+      alert("Hello " + names + " you were born on " + days[5] +" and your Akan Name is " + maleNames[5]);+ "."
     }
     else if (actualDay == 7 ) {
-      alert(days[6] + maleNames[6]);
+      alert("Hello " + names + " you were born on " + days[6] +" and your Akan Name is " + maleNames[6]);+ "."
     }else{
       alert("invalid")
     }
   }else if(gender === "female"){
     if(actualDay === 1){
-      alert(days[0] + femaleNames[0]);
+      alert("Hello " + names + " you were born on " + days[0] +" and your Akan Name is " + femaleNames[0]+ ".");
     }
     else if (actualDay == 2) {
-      alert(days[1] + femaleNames[1]);
+      alert("Hello " + names + " you were born on " + days[1] +" and your Akan Name is " + femaleNames[1]+ ".");
     }
     else if (actualDay == 3) {
-      alert(days[2] + femaleNames[2]);
+      alert("Hello " + names + " you were born on " + days[2] +" and your Akan Name is " + femaleNames[2]+ ".");
     }
     else if (actualDay == 4) {
-      alert(days[3] + femaleNames[3]);
+      alert("Hello " + names + " you were born on " + days[3] +" and your Akan Name is " + femaleNames[3]+ ".");
     }
     else if (actualDay == 5) {
-      alert(days[4] + femaleNames[4]);
+      alert("Hello " + names + " you were born on " + days[4] +" and your Akan Name is " + femaleNames[4]+ ".");
     }
     else if (actualDay == 6) {
-      alert(days[5] + femaleNames[5]);
+      alert("Hello " + names + " you were born on " + days[5] +" and your Akan Name is " + femaleNames[5]+ ".");
     }
     else if (actualDay == 7 ) {
-      alert(days[6] + femaleNames[6]);
+      alert("Hello " + names + " you were born on " + days[6] +" and your Akan Name is " + femaleNames[6]+ ".");
     }else{
       alert("invalid")
     }
