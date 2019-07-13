@@ -55,9 +55,10 @@
   z-index: -1;
    } */
 .intro p{
+  text-align: justify;
   font-style: italic;
   line-height: 35px;
-  padding-left: 35px;
+  padding:10px 35px;
   background-color: rgba(255, 255, 0, 0.1);
   border: 5px solid rgb(255,255,100);
   border-width: 0px 0px 0px 10px;
