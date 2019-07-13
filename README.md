@@ -12,6 +12,12 @@ To setup this project on your computer you can open the terminal and write
 `git clone https://github.com/SteveMitto/akan-name-calculator.git`
 then open it using atom `atom .` or with visual studio code `code .` then you are good to go.
 
+## Link to website
+To see the website try to view it through this link --> https://stevemitto.github.io/akan-name-calculator/
+
+## Errors and Bugs
+Everything is working well but some of the days it calculates are not appropriate.
+
 ## BDD
 To create this project i created a business logic file using JS then i designed the user logic with HTML and CSS.
 
