@@ -1,4 +1,4 @@
-var fname,sname,date,month,year,gender,names,yearAct,centCalc;
+var fname,sname,date,month,year,gender,names,cc,yearAct,centCalc;
 
 var days=["Sunday","Moday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
@@ -6,18 +6,18 @@ var maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 
 var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
-var dayFinder = function(day){
-  var fname=document.forms["akanNames"]["firstname"].value;
-  var sname=document.forms["akanNames"]["secondname"].value;
-  var date=document.forms["akanNames"]["date"].value;
-  var month=document.forms["akanNames"]["month"].value;
-  var year=document.forms["akanNames"]["year"].value;
-  var gender=document.forms["akanNames"]["gender"].value;
-  var names=fname.concat(" ",sname)
+var dayFinder = function(){
+  this.fname=document.forms["akanNames"]["firstname"].value;
+  this.sname=document.forms["akanNames"]["secondname"].value;
+  this.date=document.forms["akanNames"]["date"].value;
+  this.month=document.forms["akanNames"]["month"].value;
+  this.year=document.forms["akanNames"]["year"].value;
+  this.gender=document.forms["akanNames"]["gender"].value;
+  this.names=fname.concat(" ",sname)
   console.log(names)
-  var yearAct=year.slice(2,4);
-  var centCalc=function(year1){
-    var cc=year1;
+  this.yearAct=year.slice(2,4);
+  this.centCalc=function(year1){
+    this.cc=year1;
     if (year1 > 2000){
       return 20;
     }
