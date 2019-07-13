@@ -58,7 +58,7 @@ var dayFinder = function(day){
     }else{
       alert("invalid")
     }
-  }if else(gender === "female"){
+  }else if(gender === "female"){
     if(actualDay === 1){
       alert(days[0] + femaleNames[0]);
     }
