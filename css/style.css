@@ -81,6 +81,33 @@
   border: 5px solid rgb(255,255,100);
   border-width: 0px 0px 0px 10px;
 }
+.gallery h3{
+  text-align: center;
+  font-family: 'IM Fell Double Pica', serif;
+  letter-spacing:3px;
+  font-style: italic;
+  position: relative;
+}
+.gallery h3::before{
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  height: 2px;
+  width: 410px;
+  background-color: black;
+}
+.gallery h3::after{
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  height: 2px;
+  width: 410px;
+  background-color: black;
+}
+
 .gallery .card-img-top{
-  height: 250px
+  height: 250px;
+
 }
